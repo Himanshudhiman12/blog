@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 //    }
 // });
 app.get('/', function (req, res) {
-    res.send('hello world 123');
+    res.send('hello world');
    });
 require('./routes/createBlog')(app);
 require('./routes/viewBlog')(app);
